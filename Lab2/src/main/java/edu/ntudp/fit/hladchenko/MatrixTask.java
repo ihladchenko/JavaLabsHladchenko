@@ -131,16 +131,16 @@ public class MatrixTask {
     }
 
     private static double calculateGeometricMean(int[][] matrix) {
-        int product = 1;
+        int multiplication = 1;
         int count = 0;
 
         for (int[] row : matrix) {
             for (int element : row) {
-                product *= element;
+                multiplication *= element;
                 count++;
             }
         }
 
-        return Math.pow(product, 1.0 / count);
+        return Math.pow(multiplication, 1.0 / count);
     }
 }
