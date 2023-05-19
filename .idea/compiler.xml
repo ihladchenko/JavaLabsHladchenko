@@ -11,7 +11,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Lab2" target="11" />
       <module name="Lab3" target="11" />
     </bytecodeTargetLevel>
   </component>
